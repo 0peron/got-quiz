@@ -21,27 +21,46 @@ $('#try').on('click', function () {
 });
 
 $('#checkOne').click(function question1() {
-    if ($("input[name='q1']:checked").val() != "a") {
+    if ($("input[name='q1']:checked").val() == "a") {
         //        userScore.correct++;
         window.alert("correct!");
+    } else {
+        window.alert('incorrect');
     };
-    //    else {
-    //        window.alert('incorrect');
-    //    }
 });
 
-//
-///($("input[name='q2']:checked").val() != "b") {
-//    userScore.correct++;
-//}
-//var cat3 = ($("input[name='q3']:checked").val() != "c") {
-//    userScore.correct++;
-//};
-//
-//($("input[name='q4']:checked").val() != "d") {
-//    userScore.correct++;
-//};
-//
-//($("input[name='q5']:checked").val() != "a") {
-//    userScore.correct++;
-//};
+$('#checkTwo').click(function question2() {
+    if ($("input[name='q2']:checked").val() == "a") {
+        //        userScore.correct++;
+        window.alert("correct!");
+    } else {
+        window.alert('incorrect');
+    };
+});
+
+$('#checkThree').click(function question3() {
+    if ($("input[name='q3']:checked").val() == "a") {
+        //        userScore.correct++;
+        window.alert("correct!");
+    } else {
+        window.alert('incorrect');
+    };
+});
+
+$('#checkFour').click(function question4() {
+    if ($("input[name='q4']:checked").val() == "a") {
+        //        userScore.correct++;
+        window.alert("correct!");
+    } else {
+        window.alert('incorrect');
+    };
+});
+
+$('#checkFive').click(function question5() {
+    if ($("input[name='q5']:checked").val() == "a") {
+        //        userScore.correct++;
+        window.alert("correct!");
+    } else {
+        window.alert('incorrect');
+    };
+});
