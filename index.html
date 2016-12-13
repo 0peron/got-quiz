@@ -7,17 +7,41 @@
 </head>
 
 <body>
-    <header class="home">
-        <h1>Welcome to the Game of Thrones Quiz</h1>
-    </header>
-    <div class="start">
-        <button class='begin' id="start">Begin the Game of Thrones!</button>
-    </div>
 
+    <section class='front'>
+        <h1>Welcome to the Game of Thrones Quiz</h1>
+        <p class='text'>Can you take the Iron Throne?</p>
+        <div class="start">
+            <button class='begin' id="start">Begin the Game of Thrones!</button>
+        </div>
+    </section>
+    <section class='quiz'>
+        <main>
+            <p class="text" id='question'>1. What is the answer to this question?</p>
+            <ul class="answers">
+                <input type="radio" class='select' value="0" id="q1a">
+                <br/>
+                <input type="radio" class='select' value="1" id="q1b">
+                <br/>
+                <input type="radio" class='select' value="2" id="q1c">
+                <br/>
+                <input type="radio" class='select' value="3" id="q1d">
+                <br/>
+            </ul>
+        </main>
+        <div class="question-counter" id=questionCounter>Question 1 of 10</div>
+    </section>
+    <section class='results'>
+        <h2>Final Score</h2>
+        <h3 class='text' id='finalScore'></h3>
+        <button class='begin' id='try-again'>Try Again?</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="apps.js"></script>
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="apps.js"></script>
+
 
 </html>
