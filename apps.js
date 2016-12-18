@@ -1,28 +1,28 @@
 //sets the array for the questions and also starts question score and current question to 0 and the first question in the array
 var questionArray = [
     {
-        question: '1. What is the answer to this question?',
-        choices: ['1', '2', '3', '4'],
-        correctChoice: 0
-        },
-    {
-        question: '2. What is the answer to this question?',
-        choices: ['a', 'b', 'c', 'd'],
+        question: '1. Who wrote the series A Song of Ice and Fire?',
+        choices: ['John Scalzi', 'George R. R. Martin', 'JK Rowling', 'J. R. R. Tolkein'],
         correctChoice: 1
         },
     {
-        question: '3. What is the answer to this question?',
-        choices: ['e', 'f', 'g', 'h'],
-        correctChoice: 2
-        },
-    {
-        question: '4. What is the answer to this question?',
-        choices: ['h', 'g', 'r', 'd'],
+        question: "2. What is John Snow's dire wolf named?",
+        choices: ['Snow', 'Mist', 'Spirit', 'Ghost'],
         correctChoice: 3
         },
     {
-        question: '5. What is the answer to this question?',
-        choices: ['x', 'y', 'w', 'z'],
+        question: "3. What is the name of Arya's sword?",
+        choices: ['Pin', 'Hound Slayer', 'Needle', 'Hector'],
+        correctChoice: 2
+        },
+    {
+        question: '4. Where is Daenerys from?',
+        choices: ['Iron Islands', 'Tarth', 'Dorn', 'Kings Landing'],
+        correctChoice: 3
+        },
+    {
+        question: '5. What is the name of the black dragon?',
+        choices: ['Drogon', 'Viserion', 'Rhaegal', 'Targaryen'],
         correctChoice: 0
         },
     ];
